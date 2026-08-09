@@ -1,0 +1,13 @@
+{
+  "name": "random-picture-api",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "repository": "github:THU-Pieris/random-picture-api",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/api.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/index.mjs": {
+      "includeFiles": "url.csv",
+      "excludeFiles": "test/**",
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    {
+      "src": "/([0-9]+|random)\\.(?:jpg|jpeg|png|gif|bmp|webp)$",
+      "dest": "/api/index.mjs?id=$1"
+    }
+  ]
+}
