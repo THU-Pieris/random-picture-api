@@ -1,7 +1,7 @@
 {
   "name": "random-picture-api",
   "private": true,
-  "license": "GPL-3.0-only",
+  "license": "Apache-2.0",
   "repository": "github:THU-Pieris/random-picture-api",
   "type": "module",
   "scripts": {

@@ -31,6 +31,9 @@ node --check api/index.mjs
 
 ## 来源与许可
 
-图片列表迁移自 [`THU-Pieris/Random-Picture`](https://github.com/THU-Pieris/Random-Picture)。
-本仓库的 API 实现已针对 Vercel Node.js Web Handler 重写，并使用仓库内的
-[GNU GPL-3.0 许可证](./LICENSE)。图片版权归各自权利人所有，`url.csv` 仅保存外链。
+API 已针对 Vercel Node.js Web Handler 完整重写。`url.csv` 由 Pieris 创建并持续维护，
+从个人旧仓库 [`THU-Pieris/Random-Picture`](https://github.com/THU-Pieris/Random-Picture)
+迁移而来。本仓库的代码和 URL 清单使用 [Apache License 2.0](./LICENSE)；图片版权归各自
+权利人所有，`url.csv` 仅保存外链，不授予这些图片的使用权。
+
+Copyright 2026 Pieris.
